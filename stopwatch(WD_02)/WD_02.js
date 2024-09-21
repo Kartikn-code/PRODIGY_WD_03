@@ -1,6 +1,7 @@
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
+let lapbtn=document.getElementById('lap');
 let hour = 0;
 let minute = 0;
 let second = 0;
@@ -14,7 +15,7 @@ startBtn.addEventListener('click', function () {
 
 stopBtn.addEventListener('click', function () {
   timer = false;
-  alert("the value is: " ,hrString,":", minString,":",secString,":",msString)
+ 
 
 });
 
@@ -24,12 +25,17 @@ resetBtn.addEventListener('click', function () {
   minute = 0;
   second = 0;
   millisecond = 0;
+  
   document.getElementById('hr').innerHTML = "00";
   document.getElementById('min').innerHTML = "00";
   document.getElementById('sec').innerHTML = "00";
   document.getElementById('ms').innerHTML = "00";
-  confirm("Your Data will be Lost , Do u wish to Continue")
-});
+  document.getElementById('laphr').innerHTML=null;
+  document.getElementById('lapmin').innerHTML=null;
+  document.getElementById('lapsec').innerHTML=null;
+  document.getElementById('lapms').innerHTML=null;
+  confirm("Your Data will be Lost , Do u wish to Continue");
+})
 
 function stopwatch() {
   if (timer) {
@@ -69,4 +75,17 @@ function stopwatch() {
     document.getElementById('ms').innerHTML = msString;
     setTimeout(stopwatch, 10);
   }
+}
+
+lapbtn.addEventListener('click', function(){
+  timer=true;
+  document.getElementById('laphr').innerHTML="0"+hour+" : ";
+  document.getElementById('lapmin').innerHTML="0"+minute+" :";
+  document.getElementById('lapsec').innerHTML="0"+second+" :";
+  document.getElementById('lapms').innerHTML=millisecond;
+})
+
+function getvalue(){
+  var value=document.getElementById("lapbtn").value;
+  document.write.innerHTML(value);
 }
