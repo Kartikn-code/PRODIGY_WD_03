@@ -58,7 +58,7 @@ html{
     font-family: "Montserrat", sans-serif;
   }
   div.wrapper1{
-    background-image: url("STOP\ WATCH.jpg");
+    background-image: url("images/STOP\ WATCH.jpg");
     border: 2px solid grey;
     border-radius: 20px;
     background-size: cover;
