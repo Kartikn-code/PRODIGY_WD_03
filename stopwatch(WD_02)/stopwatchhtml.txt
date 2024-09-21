@@ -1,23 +1,12 @@
-
 <head> 
   <link rel="stylesheet" href="WD_02.css">
   <link rel="icon" type="image/x-icon" href="2.jpg"></lik>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <title>Stopwatch</title>
-<div>
   <div class="c1"><br>
     <img src="2.jpg" height="100px" width="100px"><br>
-    <div class="source-code">
-      <a href="stopwatch-js.txt"><img src="js.png" width="50px" height="50px"></a>
-      <a href="stopwatch-css.txt"><img src="css.jfif" width="50px" height="50px"></a>
-      <a href="stopwatchhtml.txt"><img src="html.png" width="50px" height="50px"></a>
-    </div>
-      <br>
-    
-  </div>
-  
-</div>
+  </div><br>
 <div class="c2">
 
 </div>
@@ -45,24 +34,18 @@
  
  
 </div>
-
+<div class="logos">
+  <div class="logo1">
+    <a href="https://www.linkedin.com/in/karthikeyan-sankar-422703251/"><img src="linkedin.png" alt="linkedin" height="50px" width="50px"></a>
+  </div>
+  <div class="logo1">
+    <a href="https://www.instagram.com/karthiiiiiii_____/"><img src="insta.png" width="50px" height="50px"></a>
+  </div>
+  <div class="logo1">
+  <a href="https://github.com/Kartikn-code?tab=repositories"><img src="github.png" width="50px" height="50px"></a>
+</div> 
 </div>
-<div class="about">
-  
-  <div class="logos">
-    <div class="logo1">
-      <a href="https://www.linkedin.com/in/karthikeyan-sankar-422703251/" target="_blank"><img src="linkedin.png" alt="linkedin" height="50px" width="50px"></a>
-    </div>
-    <div class="logo1">
-      <a href="https://www.instagram.com/karthiiiiiii_____/" target="_blank"><img src="insta.png" width="50px" height="50px"></a>
-    </div>
-    <div class="logo1">
-    <a href="https://github.com/Kartikn-code?tab=repositories" target="_blank"><img src="github.png" width="50px" height="50px"></a>
-    </div> 
 
-
-
-</ul>
 </div>
 
 </body>
