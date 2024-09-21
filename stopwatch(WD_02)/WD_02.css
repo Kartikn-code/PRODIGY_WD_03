@@ -1,21 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
   }
+html{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(177, 206, 15, 0.692);
+  margin-bottom: 0 auto;
+}
   
-  .wrapper {
-    max-width: 400px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .wrapper1 {
+    float: right;
+  }
+  .wrapper1:hover{
+    scale: 0.9;
+    transition: all 1s ease-out;
+   
+    border-radius: 2px solid black;
   }
   
   .stopwatch {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    
+    
   }
   
   button {
@@ -23,12 +32,83 @@ body {
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: #fff;
+    border-radius: 10px;
+    background-color: #1f9dad;
+    border: 1.5px solid darkblue;
+    color:rgba(0001);
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #a19f11;
+  }
+  .header{
+    background-color: purple;
+    width: 1000%;
+    border-radius: 20px;
+  }
+  .header img{
+    border-radius: 50%;
+    float: left;
+  }
+  .wrapper1 h1{
+    font-family: "Montserrat", sans-serif;
+  }
+  div.wrapper1{
+    background-image: url("STOP\ WATCH.jpg");
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 33%;
+    
+    margin-left: 200px;
+    padding: 20px;
+    
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+   
+    transition: all;
+    
+    scale: 0.8;
+
+  }
+  body{
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  .bodypage video{
+    border-radius: 20px;
+  }
+  .personal{
+    background-color: black;
+    color: white;
+    font: 800;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  .personal img{
+    border-radius: 50%;
+    background-color: black;
+    gap: 10px;
+    scale: 0.9;
+    
+  }
+  .personal img:hover{
+    background-color: #1f9dad;
+    transition: all 2s ease-in-out;
+    scale: 1;
+    border: 2px solid blue;
+    
+  }
+  .bodypage{
+    
   }

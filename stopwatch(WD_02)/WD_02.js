@@ -1,10 +1,10 @@
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
-let hour = 00;
-let minute = 00;
-let second = 00;
-let millisecond = 00;
+let hour = 0;
+let minute = 0;
+let second = 0;
+let millisecond = 0;
 let timer = false;
 
 startBtn.addEventListener('click', function () {
@@ -14,6 +14,8 @@ startBtn.addEventListener('click', function () {
 
 stopBtn.addEventListener('click', function () {
   timer = false;
+  alert("the value is: " ,hrString,":", minString,":",secString,":",msString)
+
 });
 
 resetBtn.addEventListener('click', function () {
@@ -26,6 +28,7 @@ resetBtn.addEventListener('click', function () {
   document.getElementById('min').innerHTML = "00";
   document.getElementById('sec').innerHTML = "00";
   document.getElementById('ms').innerHTML = "00";
+  confirm("Your Data will be Lost , Do u wish to Continue")
 });
 
 function stopwatch() {
