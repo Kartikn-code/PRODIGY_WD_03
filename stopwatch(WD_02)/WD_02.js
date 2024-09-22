@@ -84,8 +84,11 @@ lapbtn.addEventListener('click', function(){
   document.getElementById('lapsec').innerHTML="0"+second+" :";
   document.getElementById('lapms').innerHTML=millisecond;
 })
-
-function getvalue(){
-  var value=document.getElementById("lapbtn").value;
-  document.write.innerHTML(value);
+function laptime(){
+  for (var i=1; i<10;i++){
+    document.getElementById('laphr').innerHTML="0"+hour+" : ";
+  document.getElementById('lapmin').innerHTML="0"+minute+" :";
+  document.getElementById('lapsec').innerHTML="0"+second+" :";
+  document.getElementById('lapms').innerHTML=millisecond;
+  }
 }
