@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    background-color: rgba(243, 235, 235, 0.623);
+    margin-top: 0;
+}
+html{
+    background-color: grey;
+    margin-left: 0;
+}
+
+
+.navlink :hover{
+    background-color:rgb(243, 127, 127);
+    color: black;
+    width: max-content;
+    height: max-content;
+ 
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border-radius: 20px;
+}
+.navbar ul{
+    margin-left: 1000px;
+    gap: 20px;
+    list-style-type: none;
+    display: flex;
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    width: 100%;
+    height: inherit;
+}
+#start-btn{
+    background-color: grey;
+    border: 1px solid rgb(204, 192, 192);
+    padding :30px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-family: "Montserrat", system-ui;
+    float: right;
+    margin-right: 200px;
+    font-size: 30px;
+}
+.caption{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-shadow: 0 0 200px;
+}
+#start-btn:hover{
+    background-color: silver;
+    transition: all 1s ease-in-out;
+}
