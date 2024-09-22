@@ -1,5 +1,5 @@
 let board = [];
-let currentPlayer = 'O';
+let currentPlayer = 'X';
 let gameOver = false;
 
 // Initialize the board
