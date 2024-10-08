@@ -6,7 +6,15 @@
 html{
     background-color: grey;
     margin-left: 0;
+
+    filter: opacity(0.9);
+    filter: brightness(120%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0 200px;
+    color: black;
 }
+
 
 
 .navlink :hover{
@@ -38,14 +46,22 @@ html{
     font-family: "Montserrat", system-ui;
     float: right;
     margin-right: 200px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .caption{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
     margin-top: 50px;
     text-shadow: 0 0 200px;
+    margin-left: 30px;
+    background-color: gold;
+    box-shadow: 100 200 400 700 red;
+    border-radius: 20px;
+    filter: blur(1s);
+    filter: grayscale(200px);
+    filter: drop-shadow(200px);
+    opacity: 0.9;
 }
 #start-btn:hover{
     background-color: silver;
